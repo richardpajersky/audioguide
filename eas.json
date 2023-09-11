@@ -1,0 +1,25 @@
+{
+  "cli": {
+    "version": ">= 2.1.0",
+    "promptToConfigurePushNotifications": false
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {}
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "appleId": "mmmqrapp@gmail.com",
+        "ascAppId": "6443681779",
+        "appleTeamId": "U48A26A44N"
+      }
+    }
+  }
+}

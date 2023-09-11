@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "userInterfaceStyle": "light",
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.mmm.kremnica",
+      "versionCode": 7
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "qrapp.app.qrapp"
+    },
+    "name": "MMM audioguide",
+    "slug": "qrPlayer",
+    "version": "1.0.7",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a791521a-b1c8-40ba-b5bf-36c630578145"
+      }
+    }
+  }
+}
